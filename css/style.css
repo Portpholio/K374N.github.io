@@ -105,7 +105,7 @@
 		-ms-transform: translate3d(0,0,0);
 		transform: translate3d(0,0,0);
 		/* Set your background with this */
-		background: #348cb2 url("images/bg.jpg") bottom left;
+		background: rgb(151, 199, 73) url("images/bg.jpg") bottom left;
 		background-repeat: repeat-x;
 		height: 100%;
 		left: 0;
@@ -213,15 +213,19 @@
 			font-weight: 900;
 			letter-spacing: -0.035em;
 			line-height: 1em;
-			text-shadow: 2px 2px 5px black;
+			text-shadow: 2px 7px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3);
+			color: #121212;
 		}
 
 		#header p {
-			font-size: 1.25em;
+			font-size: 1.5em;
 			margin: 0.25em 0 0.25em 0;
-			text-shadow: 1px 1px black;
-			
-		}
+			color: black;
+			text-shadow: -1px 1px 0 #41ba45,
+				1px 1px 0 #c63d2b,
+				1px -1px 0 #42afac,
+				-1px -1px 0 #c6c23f;
+	}
 		
 		#header img{
 			border: 1px solid #ddd;
@@ -232,6 +236,7 @@
 
 		#header nav {
 			margin: 1.5em 0 0 0;
+			color: black;
 		}
 
 			#header nav li {
@@ -353,7 +358,7 @@
 					-ms-transition: all 0.2s ease-in-out;
 					transition: all 0.2s ease-in-out;
 					border-radius: 100%;
-					border: solid 1px white;
+					border: solid 2px black;
 					display: block;
 					font-size: 1.75em;
 					height: 2.5em;
@@ -370,7 +375,7 @@
 
 					#header nav a:hover:before {
 						background-color: rgba(255, 255, 255, 0.175);
-						color: white;
+						color: black;
 					}
 
 				#header nav a:active {
@@ -380,7 +385,7 @@
 
 					#header nav a:active:before {
 						background-color: rgba(255, 255, 255, 0.35);
-						color: white;
+						color: black;
 					}
 
 				#header nav a span {
