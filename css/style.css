@@ -221,17 +221,20 @@
 			font-size: 1.5em;
 			margin: 0.25em 0 0.25em 0;
 			color: black;
-			text-shadow: -1px 1px 0 #41ba45,
-				1px 1px 0 #c63d2b,
-				1px -1px 0 #42afac,
-				-1px -1px 0 #c6c23f;
-	}
+			text-shadow: 1px 1px 0 #aaa;
+		}
 		
 		#header img{
 			border: 1px solid #ddd;
 			border-radius: 50%;
 			background-color: white;
 			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+			transition: transform .2s; /* Animation */
+		}
+		
+		#header img:hover {
+			transform: scale(1.25); /* (150% zoom)*/
+			box-shadow: 0 4px 8px 5px rgba(0, 0, 0, 0.2), 0 6px 20px 5px rgba(0, 0, 0, 0.19);
 		}
 
 		#header nav {
@@ -371,6 +374,7 @@
 
 				#header nav a:hover {
 					font-size: 1.1em;
+					text-shadow: 0px 2px 2px #aaa;
 				}
 
 					#header nav a:hover:before {
@@ -408,4 +412,5 @@
 		position: absolute;
 		text-align: center;
 		width: 100%;
+		font-size: 0.75em;
 	}
