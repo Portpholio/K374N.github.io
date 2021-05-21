@@ -1,6 +1,7 @@
 ## Welcome to my GitHub Page
 
-Web [Portfolio](https://navchandar.github.io) to showcase projects and profile links.
+Web [Portfolio](https://navchandar.github.io) to showcase experience, projects and social profile links.
+
 
 
 ### References

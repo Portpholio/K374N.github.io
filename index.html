@@ -11,8 +11,8 @@
 		  gtag('config', 'UA-171461642-1');
 		</script>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		<meta name="description" content='Naveen Chandar (@navchandar) is an automation consultant with extensive experience in Python, Java, Selenium, Robot Framework development. He is an ISTQB and ITIL certified software developer.'/>
-		<meta name="keywords" content="NaveenChandar, Naveen Chandar, Naveenchandar, Naveen, Chandar, navchandar, NaveenChandra, Naveen Chandra, Automation, Consultant, Quality Assurance Engineer, QA Engineer, QA Automation, Test Automation, Automation Specialist, Automation Developer, Software Developer, Userscripts, Selenium Automation, Python Automation, Java Automation, PowerShell Automation" />
+		<meta name="description" content='Naveen Chandar (@navchandar) is an automation consultant with extensive experience in Python, Selenium, Robot Framework development. He is an ISTQB and ITIL certified software developer.'/>
+		<meta name="keywords" content="NaveenChandar, Naveen Chandar, Naveenchandar, Naveen, Chandar, navchandar, NaveenChandra, Naveen Chandra, Automation, Consultant, Quality Assurance Engineer, QA Engineer, QA Automation, Test Automation, Automation Specialist, Automation Developer, Software Developer, Userscripts, Selenium Automation, Python Automation, Java Automation, PowerShell Automation, Robot Framework Automation Expert, IBM, Deloitte" />
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="theme-color" content="#97c749" />
 		
@@ -27,7 +27,7 @@
 
 		<meta property='og:title' content='Naveen Chandar Portfolio'/>
 		<meta property='og:image' content='/css/images/preview.gif'/>
-		<meta property='og:description' content='Naveen Chandar (@navchandar) is an automation consultant with extensive experience in Python, Java, Selenium, Robot Framework development. He is an ISTQB and ITIL certified software developer.'/>
+		<meta property='og:description' content='Naveen Chandar (@navchandar) is an automation consultant with extensive experience in Python, Selenium, Robot Framework development. He is an ISTQB and ITIL certified software developer.'/>
 		<meta property='og:url' content='https://navchandar.github.io/' />
 		<meta name="twitter:card" content="summary" />
 		<meta name="twitter:title" content="Naveen Chandar Portfolio"/>
@@ -53,11 +53,11 @@
 		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
 	</head>
-	<body class="loading" style="opacity: 0; display: hidden;">
+	<body class="loading" style="opacity: 0; display: none;">
 		<div id="wrapper">
 			<div id="bg"></div>
 			<div id="overlay"></div>
-			<div id="main">
+			<div id="main"  style="display: none;">
 					<header id="header">
 						<img src="css/images/logo.png?raw=true" alt="Photo of Naveenchandar"  width="128" height="128"/>
 						<h1>Naveen Chandar</h1>
@@ -84,9 +84,20 @@
 		</div>
 	</body>
 	<script>document.body.style.opacity = 1; document.body.style.display = 'block';</script>
+	<script>function displayContent() {
+		  if (document.getElementById("main") != null) {
+			setTimeout(function() {
+			  document.getElementById('main').style.display = 'block';
+			}, 500);
+		  }
+		}
+		displayContent();
+	</script>
+
 <!--
 	Aerial by HTML5 UP
 	html5up.net | @n33co
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
+
 </html>
