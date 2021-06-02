@@ -20,6 +20,8 @@
 	body {
 		background: white;
 		overflow: hidden;
+		visibility:hidden;
+		opacity:0;
 	}
 
 		body.loading * {
