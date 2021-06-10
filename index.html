@@ -52,34 +52,39 @@
 		</noscript>
 		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+		
 	</head>
 	<body class="loading">
 		<div id="wrapper" style="display:none;">
 			<div id="bg"></div>
 			<div id="overlay"></div>
 			<div id="main">
-					<header id="header">
-						<img src="css/images/logo.png?raw=true" alt="Photo of Naveenchandar"  width="128" height="128"/>
-						<h1>Naveen Chandar</h1>
-						<p><strong>Software Developer &nbsp;&bull;&nbsp; Automation Consultant &nbsp;&bull;&nbsp; Quality Assurance Engineer</strong></p>
-						<nav>
-							<ul>
-								<li><a href="https://www.facebook.com/NaveenChandar" class="icon fa-facebook" target="_blank" title="Facebook"><span class="label">Facebook</span></a></li>
-								<li><a href="https://twitter.com/navchandar" class="icon fa-twitter" target="_blank" title="Twitter"><span class="label">Twitter</span></a></li>
-								<li><a href="https://www.linkedin.com/in/naveenchandar" class="icon fa-linkedin" target="_blank" title="LinkedIn"><span class="label">LinkedIn</span></a></li>
-								<li><a href="https://github.com/navchandar" class="icon fa-github" target="_blank" title="GitHub"><span class="label">GitHub</span></a></li>
-								<li><a href="https://www.reddit.com/user/Naveenchandar" class="icon fa-reddit" target="_blank" title="Reddit"><span class="label">Reddit</span></a></li>
-								<li><a href="https://stackoverflow.com/story/naveenchandar" class="icon fa-stack-overflow"  target="_blank" title="StackOverflow"><span class="label">StackOverflow</span></a></li>
-								<li><a href="https://openuserjs.org/users/navchandar" class="icon fa-tasks" target="_blank" title="OpenUserJS"><span class="label">OpenUserJS</span></a></li>
-								<li><a href="https://about.me/naveenchandar" class="icon fa-user" target="_blank" title="About"><span class="label">About Me</span></a></li>
-							</ul>
-						</nav>
-					</header>
-					<footer id="footer">
-						<div>
-						<p>Copyright <i class="fa fa-copyright" aria-hidden="true"></i> <script>document.write(new Date().getFullYear())</script> All Rights Reserved</p>
-						</div>
-					</footer>
+				<header id="header">
+					<img src="css/images/logo.png?raw=true" alt="Photo of Naveenchandar"  width="128" height="128"/>
+					<h1>Naveen Chandar</h1>
+					<p><strong>Software Developer &nbsp;&#x25cf;&nbsp; Automation Consultant &nbsp;&#x25cf;&nbsp; Quality Assurance Engineer</strong></p>
+					<div>
+						<p>I build <span id="spin"></span>!</p>
+					</div>
+					<nav>
+						<ul>
+							<li><a href="https://www.facebook.com/NaveenChandar" class="icon fa-facebook" target="_blank" title="Facebook"><span class="label">Facebook</span></a></li>
+							<li><a href="https://twitter.com/navchandar" class="icon fa-twitter" target="_blank" title="Twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="https://www.linkedin.com/in/naveenchandar" class="icon fa-linkedin" target="_blank" title="LinkedIn"><span class="label">LinkedIn</span></a></li>
+							<li><a href="https://github.com/navchandar" class="icon fa-github" target="_blank" title="GitHub"><span class="label">GitHub</span></a></li>
+							<li><a href="https://www.reddit.com/user/Naveenchandar" class="icon fa-reddit" target="_blank" title="Reddit"><span class="label">Reddit</span></a></li>
+							<li><a href="https://stackoverflow.com/story/naveenchandar" class="icon fa-stack-overflow"  target="_blank" title="StackOverflow"><span class="label">StackOverflow</span></a></li>
+							<li><a href="https://openuserjs.org/users/navchandar" class="icon fa-tasks" target="_blank" title="OpenUserJS"><span class="label">OpenUserJS</span></a></li>
+							<li><a href="https://about.me/naveenchandar" class="icon fa-user" target="_blank" title="About"><span class="label">About Me</span></a></li>
+							<li><a href="https://www.youtube.com/c/StunningSix/videos" class="icon fa-youtube-play" target="_blank" title="Youtube"><span class="label">Youtube</span></a></li>
+						</ul>
+					</nav>
+				</header>
+				<footer id="footer">
+					<div>
+					<p>Copyright <i class="fa fa-copyright" aria-hidden="true"></i> <script>document.write(new Date().getFullYear())</script> All Rights Reserved</p>
+					</div>
+				</footer>
 			</div>
 		</div>
 	<script>
@@ -89,8 +94,6 @@
 			  document.body.style.display = 'block';
 			  document.getElementById('wrapper').style.display = 'block';
 			  document.getElementsByTagName("body")[0].style.visibility = "visible";
-			  //document.getElementsByTagName("html")[0].style.visibility = "visible";
-			  //document.getElementById('main').style.display = 'block';
 			}, 50);
 		}
 		displayContent();

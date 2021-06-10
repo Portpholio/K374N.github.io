@@ -419,3 +419,30 @@
 
 	}
 	
+	#spin {
+	  color: #104bb5;
+	}
+	#spin:after {
+	  content:"Code";
+	  animation: spin 12s linear infinite;
+	  -webkit-animation: spin 12s linear infinite;
+	}
+	@-webkit-keyframes spin {
+	  0% { content:"Software"; }
+	  10% { content:"Tests"; }
+	  20% { content:"Frameworks"; }
+	  30% { content:"Websites"; }
+	  40% { content:"Utilities"; }
+	  50% { content: "Dashboards"; }
+	  60% { content: "Reports"; }
+	}
+	@keyframes spin {
+	  0% { content:"Software"; }
+	  10% { content:"Tests"; }
+	  20% { content:"Frameworks"; }
+	  30% { content:"Websites"; }
+	  40% { content:"Utilities"; }
+	  50% { content: "Dashboards"; }
+	  60% { content: "Reports"; }
+	}
+	
