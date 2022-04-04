@@ -1,6 +1,6 @@
 ## GitHub Portfolio Page
 
-Web [Portfolio](https://navchandar.github.io) to showcase my skills, experience, projects and social profile links.
+Web [Portfolio](https://K374N.github.io) to showcase my skills, experience, projects and social profile links.
 
 
 ## Technologies Used
